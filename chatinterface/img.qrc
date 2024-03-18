@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>chat.png</file>
+        <file>QRcode.png</file>
+        <file>registerStyle.qss</file>
+    </qresource>
+</RCC>

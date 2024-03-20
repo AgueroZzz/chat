@@ -15,7 +15,11 @@ public:
     explicit register_dialog(QWidget *parent = nullptr);
     ~register_dialog();
 
+private slots:
+    void on_check_btn_clicked();
+
 private:
+    void showTip(QString tr);
     Ui::register_dialog *ui;
 };
 
